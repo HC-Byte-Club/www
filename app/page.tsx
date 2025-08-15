@@ -2,8 +2,10 @@ import Seperator from "@/components/Seperator";
 import TopSection from "@/components/TopSection";
 import TopRibbon from "@/components/topRibbon";
 import HowWeWork from "@/components/HowWeWork";
-import HowWeWorkAgain from "@/components/HowWeWorkAgain";
+import WhyWeAre from "@/components/WhyWeAre";
 import Apply from "@/components/Apply";
+import HappySteps from "@/components/StepsToHappiness"
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -13,9 +15,11 @@ export default function Home() {
       <Seperator />
       <HowWeWork />
       <Seperator />
-      <HowWeWorkAgain />
+      <WhyWeAre />
       <Seperator />
       <Apply />
+      <HappySteps />
+      <Footer />
     </div>
   );
 }
