@@ -5,6 +5,7 @@ import HowWeWork from "@/components/HowWeWork";
 import WhyWeAre from "@/components/WhyWeAre";
 import Apply from "@/components/Apply";
 import HappySteps from "@/components/StepsToHappiness"
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Seperator />
       <Apply />
       <HappySteps />
+      <Footer />
     </div>
   );
 }
