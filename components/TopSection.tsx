@@ -2,84 +2,46 @@ import Image from "next/image";
 
 export default function TopSection() {
     return (
-<div className="flex flex-col p-8 md:p-32 bg-[#F9E1E4]">
-<div className="w-full">
-  <div className="flex flex-col md:flex-row justify-between p-8 md:pt-32 md:pb-32 md:pl-32 bg-[#FFB632] rounded-t-4xl">
-    <h1 className="text-4xl md:text-8xl font-black text-black">ByteClub</h1>
-    <div className="flex flex-col justify-end pt-8 md:pt-32 md:h-64">
-      <ul className="flex flex-col justify-end gap-5 w-16 md:w-72">
-        <li className="flex items-center text-2xl font-bold text-black">
-          <span>What is ByteClub</span>
-          <div className="flex-1 h-1 rounded-full bg-black ml-2"></div>
-        </li>
-        <li className="flex items-center text-2xl font-bold text-black">
-          <span>How does it work</span>
-          <div className="flex-1 h-1 rounded-full bg-black ml-2"></div>
-        </li>
-        <li className="flex items-center text-2xl font-bold text-black">
-          <span>Why are we</span>
-          <div className="flex-1 h-1 rounded-full bg-black ml-2"></div>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div className="w-full mt-[-1px]">
-    <Image
-      src="/wave.svg"
-      alt="Wavy border"
-      width={1720}
-      height={189}
-      className="w-full"
-    />
-  </div>
-</div>
+      <div className="flex flex-col p-5 gap-5 bg-[#f9e1e4]">
 
+        {/* hero section */}
+        <div className="flex flex-col gap-60 p-8 text-6xl bg-[#ffb632] font-head rounded-3xl">
+          <h1>ByteClub</h1>
+          <div className="flex flex-col gap-2 items-end">
+            <div className="flex gap-2 text-lg w-3/5 sm:w-1/4 font-bold font-body tracking-tighter">
+              <p>what's byteclub</p>
+              <div className="flex-1 bg-[#111] my-3 rounded-full"></div>
+            </div>
+            <div className="flex gap-2 text-lg w-3/5 sm:w-1/4 font-bold font-body tracking-tighter">
+              <p>how we work</p>
+              <div className="flex-1 bg-[#111] my-3 rounded-full"></div>
+            </div>
+            <div className="flex gap-2 text-lg w-3/5 sm:w-1/4 font-bold font-body tracking-tighter">
+              <p>why are we</p>
+              <div className="flex-1 bg-[#111] my-3 rounded-full"></div>
+            </div>
+          </div>
+        </div>
 
-<div className="w-full pt-16">
-
-  <div className="w-full mb-[-1px]">
-    <Image
-      src="/waveDown.svg"
-      alt="Wavy border"
-      width={1720}
-      height={189}
-      className="w-full"
-    />
-  </div>
-
-  <div className="flex flex-col md:flex-row justify-between p-8 md:pb-32 md:pl-32 bg-[#F196E5] rounded-b-4xl">
-    <div className="w-full md:w-1/2">
-      <h1 className="text-xl md:text-6xl font-black text-black pb-8 tracking-tighter">
-        Meet people, <br />
-        Build projects, <br />
-        Create communities.
-      </h1>
-      <p className="text-xl md:text-2xl py-4">
-        Join cohorts and communities of builders. We find problems in non-profits, local vendors, and more that are in lucknow.
-      </p>
-      <p className="text-xl md:text-2xl py-8">
-        We team up with them to provide you opportunities to solve them. It’s your way to give back to the city that built you.
-      </p>
-    </div>
-    <div className="flex flex-col justify-end pt-8 md:pt-32 md:h-64">
-      <ul className="flex flex-col justify-end gap-5 w-16 md:w-72">
-        <li className="flex items-center text-2xl font-bold text-black ">
-          <span>What is ByteClub</span>
-          <div className="flex-1 h-1 rounded-full bg-black ml-2"></div>
-        </li>
-        {/* <li className="flex items-center text-2xl font-bold text-black">
-          <span>How does it work</span>
-          <div className="flex-1 h-1 rounded-full bg-black ml-2"></div>
-        </li>
-        <li className="flex items-center text-2xl font-bold text-black">
-          <span>Why are we</span>
-          <div className="flex-1 h-1 rounded-full bg-black ml-2"></div>
-        </li> */}
-      </ul>
-    </div>
-  </div>
-
-</div>
-    </div>
+        {/* what's byteclub */}
+        <div className="flex flex-col gap-8 p-8 text-3xl bg-[#f196e5] font-head rounded-3xl">
+          <div className="font-head">
+            <h2>Meet people,</h2>
+            <h2>Build projects,</h2>
+            <h2>Create communities.</h2>
+          </div>
+          <div className="flex flex-col text-xl font-body gap-8 tracking-tighter">
+            <p>Join cohorts and communities of builders. We find problems in non-profits, local vendors, and more that are in lucknow.</p>
+            <p>We team up with them to provide you opportunities to solve them. It’s your way to give back to the city that built you.</p>
+            <Image
+              src="/section/whatisbyteclub.svg"
+              alt="What is ByteClub"
+              width={200}
+              height={200}
+              className="w-fit h-5"
+            />
+          </div>
+        </div>
+      </div>
   );
 }
