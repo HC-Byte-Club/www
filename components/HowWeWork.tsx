@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HowWeWork() {
     return (
-        <div className="flex flex-col gap-8 p-8 text-3xl bg-[#9ee345] font-head md:px-10 lg:px-40 xl:px-95">
+        <div id="howwework" className="flex flex-col gap-8 p-8 text-3xl bg-[#9ee345] font-head md:px-10 lg:px-40 xl:px-95">
           <div className="font-head">
             <h2>Cool people,</h2>
             <h2>Real problems,</h2>

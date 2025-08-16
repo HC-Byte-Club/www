@@ -5,26 +5,26 @@ export default function TopSection() {
       <div className="flex flex-col p-5 gap-5 bg-[#f9e1e4] md:px-10 lg:px-40 xl:px-95">
 
         {/* hero section */}
-        <div className="flex flex-col gap-60 p-8 text-6xl bg-[#ffb632] font-head rounded-3xl">
+        <div id="hero" className="flex flex-col gap-60 p-8 text-6xl bg-[#ffb632] font-head rounded-3xl">
           <h1>ByteClub</h1>
           <div className="flex flex-col gap-2 items-end">
-            <div className="flex gap-2 text-lg w-3/5 sm:w-1/4 font-bold font-body tracking-tighter">
+            <a href="#whatbyteclub" className="flex gap-2 text-lg w-3/5 sm:w-1/4 font-bold font-body tracking-tighter">
               <p>what's byteclub</p>
               <div className="flex-1 bg-[#111] my-3 rounded-full"></div>
-            </div>
-            <div className="flex gap-2 text-lg w-3/5 sm:w-1/4 font-bold font-body tracking-tighter">
+            </a>
+            <a href="#howwework" className="flex gap-2 text-lg w-3/5 sm:w-1/4 font-bold font-body tracking-tighter">
               <p>how we work</p>
               <div className="flex-1 bg-[#111] my-3 rounded-full"></div>
-            </div>
-            <div className="flex gap-2 text-lg w-3/5 sm:w-1/4 font-bold font-body tracking-tighter">
+            </a>
+            <a href="#whyarewe" className="flex gap-2 text-lg w-3/5 sm:w-1/4 font-bold font-body tracking-tighter">
               <p>why are we</p>
               <div className="flex-1 bg-[#111] my-3 rounded-full"></div>
-            </div>
+            </a>
           </div>
         </div>
 
         {/* what's byteclub */}
-        <div className="flex flex-col gap-8 p-8 text-3xl bg-[#f196e5] font-head rounded-3xl">
+        <div id="whatbyteclub" className="flex flex-col gap-8 p-8 text-3xl bg-[#f196e5] font-head rounded-3xl">
           <div className="font-head">
             <h2>Meet people,</h2>
             <h2>Build projects,</h2>
