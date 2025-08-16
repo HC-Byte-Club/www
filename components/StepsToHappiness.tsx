@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function StepsToHappiness() {
     return (
-      <div className="flex flex-col p-5 bg-[#f9e1e4]">
+      <div className="flex flex-col p-5 bg-[#f9e1e4] md:px-10 lg:px-40 xl:px-95">
         <div className="flex flex-col gap-5 text-4xl font-head">
           <h1>The steps to happiness:</h1>
           <div className="flex flex-col gap-2 items-start bg-[#FF4141] text-[#f9e1e4] p-5 rounded-3xl">

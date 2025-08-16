@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WhyWeAre() {
     return (
-        <div className="flex flex-col gap-8 p-8 text-3xl bg-[#9989FF] font-head">
+        <div className="flex flex-col gap-8 p-8 text-3xl bg-[#9989FF] font-head md:px-10 lg:px-40 xl:px-95">
           <div className="font-head">
             <h2>We find problems,</h2>
             <h2>Right here in Lucknow.</h2>

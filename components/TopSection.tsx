@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function TopSection() {
     return (
-      <div className="flex flex-col p-5 gap-5 bg-[#f9e1e4]">
+      <div className="flex flex-col p-5 gap-5 bg-[#f9e1e4] md:px-10 lg:px-40 xl:px-95">
 
         {/* hero section */}
         <div className="flex flex-col gap-60 p-8 text-6xl bg-[#ffb632] font-head rounded-3xl">
