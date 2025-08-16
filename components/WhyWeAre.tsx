@@ -10,13 +10,7 @@ export default function WhyWeAre() {
           <div className="flex flex-col text-xl font-body gap-8 tracking-tighter">
             <p>We find places in Lucknow that require help with technology. We then give each person in the cohort a chance to solve these real-world problems.</p>
             <p>We want to help kids build real world experience and not random filler projects.</p>
-            <Image
-              src="/section/whyarewe.svg"
-              alt="How we work"
-              width={200}
-              height={200}
-              className="w-fit h-5"
-            />
+            <p className="text-inner-shadow opacity-50 font-bold font-body text-2xl text-[#9989FF]">why are we</p>
           </div>
         </div>
     )

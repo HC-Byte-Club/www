@@ -33,13 +33,7 @@ export default function TopSection() {
           <div className="flex flex-col text-xl font-body gap-8 tracking-tighter">
             <p>Join cohorts and communities of builders. We find problems in non-profits, local vendors, and more that are in lucknow.</p>
             <p>We team up with them to provide you opportunities to solve them. It’s your way to give back to the city that built you.</p>
-            <Image
-              src="/section/whatisbyteclub.svg"
-              alt="What is ByteClub"
-              width={200}
-              height={200}
-              className="w-fit h-5"
-            />
+            <p className="text-inner-shadow opacity-50 font-bold font-body text-2xl text-[#9989FF]">what's byteclub</p>
           </div>
         </div>
       </div>
