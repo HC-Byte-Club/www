@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { InteractiveHoverButton } from "@/components/magicui/interactive-hover-button";
 
 export default function TopSection() {
     return (
@@ -8,17 +9,14 @@ export default function TopSection() {
         <div id="hero" className="flex flex-col gap-60 p-8 text-6xl bg-[#ffb632] font-head rounded-3xl">
           <h1>ByteClub</h1>
           <div className="flex flex-col gap-2 items-end">
-            <a href="#whatbyteclub" className="flex gap-2 text-lg w-3/5 sm:w-1/4 font-bold font-body tracking-tighter">
-              <p>what's byteclub</p>
-              <div className="flex-1 bg-[#111] my-3 rounded-full"></div>
+            <a href="#whatbyteclub" className="font-body text-lg tracking-tighter">
+              <InteractiveHoverButton><p className="">what's byteclub</p></InteractiveHoverButton>
             </a>
-            <a href="#howwework" className="flex gap-2 text-lg w-3/5 sm:w-1/4 font-bold font-body tracking-tighter">
-              <p>how we work</p>
-              <div className="flex-1 bg-[#111] my-3 rounded-full"></div>
+            <a href="#howwework" className="font-body text-lg tracking-tighter">
+              <InteractiveHoverButton><p className="">how we work</p></InteractiveHoverButton>
             </a>
-            <a href="#whyarewe" className="flex gap-2 text-lg w-3/5 sm:w-1/4 font-bold font-body tracking-tighter">
-              <p>why are we</p>
-              <div className="flex-1 bg-[#111] my-3 rounded-full"></div>
+            <a href="#whyarewe" className="font-body text-lg tracking-tighter">
+              <InteractiveHoverButton><p className="">why are we</p></InteractiveHoverButton>
             </a>
           </div>
         </div>
