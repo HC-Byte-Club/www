@@ -8,7 +8,7 @@ export default function ContactPage() {
         height="100vh"
         style={{
           position: "fixed",
-          top: 75,
+          top: 0,
           left: 0,
           width: "100%",
           height: "100%",
