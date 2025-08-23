@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col select-none">
       <TopRibbon />
       <TopSection />
       <Seperator />
