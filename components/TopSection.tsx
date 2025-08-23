@@ -7,10 +7,10 @@ export default function TopSection() {
 
         {/* hero section */}
         <div id="hero" className="flex flex-col gap-60 p-8 text-6xl bg-[#ffb632] font-head rounded-3xl">
-          <h1>ByteClub Cohorts</h1>
+          <h1>ByteClub</h1>
           <div className="flex flex-col gap-2 items-end">
             <a href="#whatbyteclub" className="font-body text-lg tracking-tighter">
-              <InteractiveHoverButton><p className="">what's byteclub cohorts</p></InteractiveHoverButton>
+              <InteractiveHoverButton><p className="">what's byteclub?</p></InteractiveHoverButton>
             </a>
             <a href="#howwework" className="font-body text-lg tracking-tighter">
               <InteractiveHoverButton><p className="">how we work</p></InteractiveHoverButton>
